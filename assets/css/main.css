@@ -7,6 +7,10 @@
  * URL: http://blacktie.co
  */
 
+article { 
+    display: block;
+}
+
 body {
   background-color: #f2f2f2;
     font-family: 'Lato', sans-serif;
@@ -176,8 +180,12 @@ i {
 }
 
 .social-media-icons{
-display: block;
-margin: auto;
+ 	height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
 
 }
 
@@ -189,6 +197,8 @@ a.svg:after {
   bottom: 0; 
   left: 0;
 }
+
+
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
